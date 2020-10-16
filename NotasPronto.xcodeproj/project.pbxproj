@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9248912A2539DC3C00D5BDDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924891292539DC3C00D5BDDA /* AppDelegate.swift */; };
+		9248912C2539DC3C00D5BDDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9248912B2539DC3C00D5BDDA /* SceneDelegate.swift */; };
+		9248912E2539DC3C00D5BDDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9248912D2539DC3C00D5BDDA /* ViewController.swift */; };
+		924891312539DC3C00D5BDDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9248912F2539DC3C00D5BDDA /* Main.storyboard */; };
+		924891342539DC3C00D5BDDA /* NotasPronto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 924891322539DC3C00D5BDDA /* NotasPronto.xcdatamodeld */; };
+		924891362539DC3D00D5BDDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924891352539DC3D00D5BDDA /* Assets.xcassets */; };
+		924891392539DC3D00D5BDDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924891372539DC3D00D5BDDA /* LaunchScreen.storyboard */; };
+		924891442539DC3D00D5BDDA /* NotasProntoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924891432539DC3D00D5BDDA /* NotasProntoTests.swift */; };
+		9248914F2539DC3D00D5BDDA /* NotasProntoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9248914E2539DC3D00D5BDDA /* NotasProntoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		924891402539DC3D00D5BDDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9248911E2539DC3C00D5BDDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 924891252539DC3C00D5BDDA;
+			remoteInfo = NotasPronto;
+		};
+		9248914B2539DC3D00D5BDDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9248911E2539DC3C00D5BDDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 924891252539DC3C00D5BDDA;
+			remoteInfo = NotasPronto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		924891262539DC3C00D5BDDA /* NotasPronto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotasPronto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		924891292539DC3C00D5BDDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9248912B2539DC3C00D5BDDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9248912D2539DC3C00D5BDDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		924891302539DC3C00D5BDDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		924891332539DC3C00D5BDDA /* NotasPronto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NotasPronto.xcdatamodel; sourceTree = "<group>"; };
+		924891352539DC3D00D5BDDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		924891382539DC3D00D5BDDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9248913A2539DC3D00D5BDDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9248913F2539DC3D00D5BDDA /* NotasProntoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotasProntoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		924891432539DC3D00D5BDDA /* NotasProntoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotasProntoTests.swift; sourceTree = "<group>"; };
+		924891452539DC3D00D5BDDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9248914A2539DC3D00D5BDDA /* NotasProntoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotasProntoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9248914E2539DC3D00D5BDDA /* NotasProntoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotasProntoUITests.swift; sourceTree = "<group>"; };
+		924891502539DC3D00D5BDDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		924891232539DC3C00D5BDDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9248913C2539DC3D00D5BDDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924891472539DC3D00D5BDDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9248911D2539DC3C00D5BDDA = {
+			isa = PBXGroup;
+			children = (
+				924891282539DC3C00D5BDDA /* NotasPronto */,
+				924891422539DC3D00D5BDDA /* NotasProntoTests */,
+				9248914D2539DC3D00D5BDDA /* NotasProntoUITests */,
+				924891272539DC3C00D5BDDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		924891272539DC3C00D5BDDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				924891262539DC3C00D5BDDA /* NotasPronto.app */,
+				9248913F2539DC3D00D5BDDA /* NotasProntoTests.xctest */,
+				9248914A2539DC3D00D5BDDA /* NotasProntoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		924891282539DC3C00D5BDDA /* NotasPronto */ = {
+			isa = PBXGroup;
+			children = (
+				924891292539DC3C00D5BDDA /* AppDelegate.swift */,
+				9248912B2539DC3C00D5BDDA /* SceneDelegate.swift */,
+				9248912D2539DC3C00D5BDDA /* ViewController.swift */,
+				9248912F2539DC3C00D5BDDA /* Main.storyboard */,
+				924891352539DC3D00D5BDDA /* Assets.xcassets */,
+				924891372539DC3D00D5BDDA /* LaunchScreen.storyboard */,
+				9248913A2539DC3D00D5BDDA /* Info.plist */,
+				924891322539DC3C00D5BDDA /* NotasPronto.xcdatamodeld */,
+			);
+			path = NotasPronto;
+			sourceTree = "<group>";
+		};
+		924891422539DC3D00D5BDDA /* NotasProntoTests */ = {
+			isa = PBXGroup;
+			children = (
+				924891432539DC3D00D5BDDA /* NotasProntoTests.swift */,
+				924891452539DC3D00D5BDDA /* Info.plist */,
+			);
+			path = NotasProntoTests;
+			sourceTree = "<group>";
+		};
+		9248914D2539DC3D00D5BDDA /* NotasProntoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9248914E2539DC3D00D5BDDA /* NotasProntoUITests.swift */,
+				924891502539DC3D00D5BDDA /* Info.plist */,
+			);
+			path = NotasProntoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		924891252539DC3C00D5BDDA /* NotasPronto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924891532539DC3D00D5BDDA /* Build configuration list for PBXNativeTarget "NotasPronto" */;
+			buildPhases = (
+				924891222539DC3C00D5BDDA /* Sources */,
+				924891232539DC3C00D5BDDA /* Frameworks */,
+				924891242539DC3C00D5BDDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotasPronto;
+			productName = NotasPronto;
+			productReference = 924891262539DC3C00D5BDDA /* NotasPronto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9248913E2539DC3D00D5BDDA /* NotasProntoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924891562539DC3D00D5BDDA /* Build configuration list for PBXNativeTarget "NotasProntoTests" */;
+			buildPhases = (
+				9248913B2539DC3D00D5BDDA /* Sources */,
+				9248913C2539DC3D00D5BDDA /* Frameworks */,
+				9248913D2539DC3D00D5BDDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				924891412539DC3D00D5BDDA /* PBXTargetDependency */,
+			);
+			name = NotasProntoTests;
+			productName = NotasProntoTests;
+			productReference = 9248913F2539DC3D00D5BDDA /* NotasProntoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		924891492539DC3D00D5BDDA /* NotasProntoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924891592539DC3D00D5BDDA /* Build configuration list for PBXNativeTarget "NotasProntoUITests" */;
+			buildPhases = (
+				924891462539DC3D00D5BDDA /* Sources */,
+				924891472539DC3D00D5BDDA /* Frameworks */,
+				924891482539DC3D00D5BDDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9248914C2539DC3D00D5BDDA /* PBXTargetDependency */,
+			);
+			name = NotasProntoUITests;
+			productName = NotasProntoUITests;
+			productReference = 9248914A2539DC3D00D5BDDA /* NotasProntoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9248911E2539DC3C00D5BDDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					924891252539DC3C00D5BDDA = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					9248913E2539DC3D00D5BDDA = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 924891252539DC3C00D5BDDA;
+					};
+					924891492539DC3D00D5BDDA = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 924891252539DC3C00D5BDDA;
+					};
+				};
+			};
+			buildConfigurationList = 924891212539DC3C00D5BDDA /* Build configuration list for PBXProject "NotasPronto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9248911D2539DC3C00D5BDDA;
+			productRefGroup = 924891272539DC3C00D5BDDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				924891252539DC3C00D5BDDA /* NotasPronto */,
+				9248913E2539DC3D00D5BDDA /* NotasProntoTests */,
+				924891492539DC3D00D5BDDA /* NotasProntoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		924891242539DC3C00D5BDDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924891392539DC3D00D5BDDA /* LaunchScreen.storyboard in Resources */,
+				924891362539DC3D00D5BDDA /* Assets.xcassets in Resources */,
+				924891312539DC3C00D5BDDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9248913D2539DC3D00D5BDDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924891482539DC3D00D5BDDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		924891222539DC3C00D5BDDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9248912E2539DC3C00D5BDDA /* ViewController.swift in Sources */,
+				9248912A2539DC3C00D5BDDA /* AppDelegate.swift in Sources */,
+				9248912C2539DC3C00D5BDDA /* SceneDelegate.swift in Sources */,
+				924891342539DC3C00D5BDDA /* NotasPronto.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9248913B2539DC3D00D5BDDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924891442539DC3D00D5BDDA /* NotasProntoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924891462539DC3D00D5BDDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9248914F2539DC3D00D5BDDA /* NotasProntoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		924891412539DC3D00D5BDDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 924891252539DC3C00D5BDDA /* NotasPronto */;
+			targetProxy = 924891402539DC3D00D5BDDA /* PBXContainerItemProxy */;
+		};
+		9248914C2539DC3D00D5BDDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 924891252539DC3C00D5BDDA /* NotasPronto */;
+			targetProxy = 9248914B2539DC3D00D5BDDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9248912F2539DC3C00D5BDDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				924891302539DC3C00D5BDDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		924891372539DC3D00D5BDDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				924891382539DC3D00D5BDDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		924891512539DC3D00D5BDDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		924891522539DC3D00D5BDDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		924891542539DC3D00D5BDDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2AATBYW8Z;
+				INFOPLIST_FILE = NotasPronto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pedro-Henrique-Costa.NotasPronto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		924891552539DC3D00D5BDDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2AATBYW8Z;
+				INFOPLIST_FILE = NotasPronto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pedro-Henrique-Costa.NotasPronto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		924891572539DC3D00D5BDDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2AATBYW8Z;
+				INFOPLIST_FILE = NotasProntoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pedro-Henrique-Costa.NotasProntoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotasPronto.app/NotasPronto";
+			};
+			name = Debug;
+		};
+		924891582539DC3D00D5BDDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2AATBYW8Z;
+				INFOPLIST_FILE = NotasProntoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pedro-Henrique-Costa.NotasProntoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotasPronto.app/NotasPronto";
+			};
+			name = Release;
+		};
+		9248915A2539DC3D00D5BDDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2AATBYW8Z;
+				INFOPLIST_FILE = NotasProntoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pedro-Henrique-Costa.NotasProntoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NotasPronto;
+			};
+			name = Debug;
+		};
+		9248915B2539DC3D00D5BDDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2AATBYW8Z;
+				INFOPLIST_FILE = NotasProntoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pedro-Henrique-Costa.NotasProntoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NotasPronto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		924891212539DC3C00D5BDDA /* Build configuration list for PBXProject "NotasPronto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924891512539DC3D00D5BDDA /* Debug */,
+				924891522539DC3D00D5BDDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		924891532539DC3D00D5BDDA /* Build configuration list for PBXNativeTarget "NotasPronto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924891542539DC3D00D5BDDA /* Debug */,
+				924891552539DC3D00D5BDDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		924891562539DC3D00D5BDDA /* Build configuration list for PBXNativeTarget "NotasProntoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924891572539DC3D00D5BDDA /* Debug */,
+				924891582539DC3D00D5BDDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		924891592539DC3D00D5BDDA /* Build configuration list for PBXNativeTarget "NotasProntoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9248915A2539DC3D00D5BDDA /* Debug */,
+				9248915B2539DC3D00D5BDDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		924891322539DC3C00D5BDDA /* NotasPronto.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				924891332539DC3C00D5BDDA /* NotasPronto.xcdatamodel */,
+			);
+			currentVersion = 924891332539DC3C00D5BDDA /* NotasPronto.xcdatamodel */;
+			path = NotasPronto.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9248911E2539DC3C00D5BDDA /* Project object */;
+}
