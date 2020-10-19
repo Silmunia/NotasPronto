@@ -9,13 +9,27 @@
 /* Begin PBXBuildFile section */
 		9248912A2539DC3C00D5BDDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924891292539DC3C00D5BDDA /* AppDelegate.swift */; };
 		9248912C2539DC3C00D5BDDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9248912B2539DC3C00D5BDDA /* SceneDelegate.swift */; };
-		9248912E2539DC3C00D5BDDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9248912D2539DC3C00D5BDDA /* ViewController.swift */; };
-		924891312539DC3C00D5BDDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9248912F2539DC3C00D5BDDA /* Main.storyboard */; };
+		9248912E2539DC3C00D5BDDA /* HunterArchiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9248912D2539DC3C00D5BDDA /* HunterArchiveViewController.swift */; };
 		924891342539DC3C00D5BDDA /* NotasPronto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 924891322539DC3C00D5BDDA /* NotasPronto.xcdatamodeld */; };
 		924891362539DC3D00D5BDDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924891352539DC3D00D5BDDA /* Assets.xcassets */; };
 		924891392539DC3D00D5BDDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924891372539DC3D00D5BDDA /* LaunchScreen.storyboard */; };
 		924891442539DC3D00D5BDDA /* NotasProntoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924891432539DC3D00D5BDDA /* NotasProntoTests.swift */; };
 		9248914F2539DC3D00D5BDDA /* NotasProntoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9248914E2539DC3D00D5BDDA /* NotasProntoUITests.swift */; };
+		92D3D5EE253DB67300DEDD38 /* BasicArchiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D5ED253DB67300DEDD38 /* BasicArchiveView.swift */; };
+		92D3D5F6253DB97600DEDD38 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 92D3D5F5253DB97600DEDD38 /* .swiftlint.yml */; };
+		92D3D602253DBB5000DEDD38 /* BasicArchiveTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D601253DBB5000DEDD38 /* BasicArchiveTable.swift */; };
+		92D3D607253DBCF600DEDD38 /* HunterArchiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D606253DBCF600DEDD38 /* HunterArchiveCell.swift */; };
+		92D3D6DB253DD6E500DEDD38 /* DashboardTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D6DA253DD6E500DEDD38 /* DashboardTabBarController.swift */; };
+		92D3D6FF253DDAE900DEDD38 /* Creature+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D6F7253DDAE900DEDD38 /* Creature+CoreDataClass.swift */; };
+		92D3D701253DDAE900DEDD38 /* Place+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D6F9253DDAE900DEDD38 /* Place+CoreDataClass.swift */; };
+		92D3D703253DDAE900DEDD38 /* Hunter+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D6FB253DDAE900DEDD38 /* Hunter+CoreDataClass.swift */; };
+		92D3D705253DDAE900DEDD38 /* Workshop+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D6FD253DDAE900DEDD38 /* Workshop+CoreDataClass.swift */; };
+		92D3D714253DDBE100DEDD38 /* CreatureArchiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D713253DDBE100DEDD38 /* CreatureArchiveCell.swift */; };
+		92D3D719253DDC0300DEDD38 /* PlaceArchiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D718253DDC0300DEDD38 /* PlaceArchiveCell.swift */; };
+		92D3D71E253DDC2000DEDD38 /* WorkshopArchiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D71D253DDC2000DEDD38 /* WorkshopArchiveCell.swift */; };
+		92D3D723253DDC6000DEDD38 /* WorkshopArchiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D722253DDC6000DEDD38 /* WorkshopArchiveViewController.swift */; };
+		92D3D728253DDCC000DEDD38 /* PlaceArchiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D727253DDCC000DEDD38 /* PlaceArchiveViewController.swift */; };
+		92D3D72D253DDCFC00DEDD38 /* CreatureArchiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D72C253DDCFC00DEDD38 /* CreatureArchiveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +53,7 @@
 		924891262539DC3C00D5BDDA /* NotasPronto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotasPronto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		924891292539DC3C00D5BDDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9248912B2539DC3C00D5BDDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9248912D2539DC3C00D5BDDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		924891302539DC3C00D5BDDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9248912D2539DC3C00D5BDDA /* HunterArchiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HunterArchiveViewController.swift; sourceTree = "<group>"; };
 		924891332539DC3C00D5BDDA /* NotasPronto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NotasPronto.xcdatamodel; sourceTree = "<group>"; };
 		924891352539DC3D00D5BDDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		924891382539DC3D00D5BDDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +64,21 @@
 		9248914A2539DC3D00D5BDDA /* NotasProntoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotasProntoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9248914E2539DC3D00D5BDDA /* NotasProntoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotasProntoUITests.swift; sourceTree = "<group>"; };
 		924891502539DC3D00D5BDDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92D3D5ED253DB67300DEDD38 /* BasicArchiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicArchiveView.swift; sourceTree = "<group>"; };
+		92D3D5F5253DB97600DEDD38 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		92D3D601253DBB5000DEDD38 /* BasicArchiveTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicArchiveTable.swift; sourceTree = "<group>"; };
+		92D3D606253DBCF600DEDD38 /* HunterArchiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HunterArchiveCell.swift; sourceTree = "<group>"; };
+		92D3D6DA253DD6E500DEDD38 /* DashboardTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTabBarController.swift; sourceTree = "<group>"; };
+		92D3D6F7253DDAE900DEDD38 /* Creature+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Creature+CoreDataClass.swift"; path = "../../Creature+CoreDataClass.swift"; sourceTree = "<group>"; };
+		92D3D6F9253DDAE900DEDD38 /* Place+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Place+CoreDataClass.swift"; sourceTree = "<group>"; };
+		92D3D6FB253DDAE900DEDD38 /* Hunter+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hunter+CoreDataClass.swift"; sourceTree = "<group>"; };
+		92D3D6FD253DDAE900DEDD38 /* Workshop+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Workshop+CoreDataClass.swift"; sourceTree = "<group>"; };
+		92D3D713253DDBE100DEDD38 /* CreatureArchiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureArchiveCell.swift; sourceTree = "<group>"; };
+		92D3D718253DDC0300DEDD38 /* PlaceArchiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceArchiveCell.swift; sourceTree = "<group>"; };
+		92D3D71D253DDC2000DEDD38 /* WorkshopArchiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopArchiveCell.swift; sourceTree = "<group>"; };
+		92D3D722253DDC6000DEDD38 /* WorkshopArchiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopArchiveViewController.swift; sourceTree = "<group>"; };
+		92D3D727253DDCC000DEDD38 /* PlaceArchiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceArchiveViewController.swift; sourceTree = "<group>"; };
+		92D3D72C253DDCFC00DEDD38 /* CreatureArchiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureArchiveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +109,7 @@
 		9248911D2539DC3C00D5BDDA = {
 			isa = PBXGroup;
 			children = (
+				92D3D5F5253DB97600DEDD38 /* .swiftlint.yml */,
 				924891282539DC3C00D5BDDA /* NotasPronto */,
 				924891422539DC3D00D5BDDA /* NotasProntoTests */,
 				9248914D2539DC3D00D5BDDA /* NotasProntoUITests */,
@@ -101,10 +130,11 @@
 		924891282539DC3C00D5BDDA /* NotasPronto */ = {
 			isa = PBXGroup;
 			children = (
+				92D3D615253DCAF300DEDD38 /* Data */,
+				92D3D5F3253DB93700DEDD38 /* Controller */,
+				92D3D5F2253DB92A00DEDD38 /* View */,
 				924891292539DC3C00D5BDDA /* AppDelegate.swift */,
 				9248912B2539DC3C00D5BDDA /* SceneDelegate.swift */,
-				9248912D2539DC3C00D5BDDA /* ViewController.swift */,
-				9248912F2539DC3C00D5BDDA /* Main.storyboard */,
 				924891352539DC3D00D5BDDA /* Assets.xcassets */,
 				924891372539DC3D00D5BDDA /* LaunchScreen.storyboard */,
 				9248913A2539DC3D00D5BDDA /* Info.plist */,
@@ -131,6 +161,50 @@
 			path = NotasProntoUITests;
 			sourceTree = "<group>";
 		};
+		92D3D5F2253DB92A00DEDD38 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92D3D5F4253DB94500DEDD38 /* Component */,
+				92D3D5ED253DB67300DEDD38 /* BasicArchiveView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92D3D5F3253DB93700DEDD38 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9248912D2539DC3C00D5BDDA /* HunterArchiveViewController.swift */,
+				92D3D6DA253DD6E500DEDD38 /* DashboardTabBarController.swift */,
+				92D3D722253DDC6000DEDD38 /* WorkshopArchiveViewController.swift */,
+				92D3D727253DDCC000DEDD38 /* PlaceArchiveViewController.swift */,
+				92D3D72C253DDCFC00DEDD38 /* CreatureArchiveViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92D3D5F4253DB94500DEDD38 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				92D3D601253DBB5000DEDD38 /* BasicArchiveTable.swift */,
+				92D3D606253DBCF600DEDD38 /* HunterArchiveCell.swift */,
+				92D3D713253DDBE100DEDD38 /* CreatureArchiveCell.swift */,
+				92D3D718253DDC0300DEDD38 /* PlaceArchiveCell.swift */,
+				92D3D71D253DDC2000DEDD38 /* WorkshopArchiveCell.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		92D3D615253DCAF300DEDD38 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				92D3D6F7253DDAE900DEDD38 /* Creature+CoreDataClass.swift */,
+				92D3D6F9253DDAE900DEDD38 /* Place+CoreDataClass.swift */,
+				92D3D6FB253DDAE900DEDD38 /* Hunter+CoreDataClass.swift */,
+				92D3D6FD253DDAE900DEDD38 /* Workshop+CoreDataClass.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,6 +215,7 @@
 				924891222539DC3C00D5BDDA /* Sources */,
 				924891232539DC3C00D5BDDA /* Frameworks */,
 				924891242539DC3C00D5BDDA /* Resources */,
+				92D3D5FD253DBA1100DEDD38 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -234,9 +309,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92D3D5F6253DB97600DEDD38 /* .swiftlint.yml in Resources */,
 				924891392539DC3D00D5BDDA /* LaunchScreen.storyboard in Resources */,
 				924891362539DC3D00D5BDDA /* Assets.xcassets in Resources */,
-				924891312539DC3C00D5BDDA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +331,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		92D3D5FD253DBA1100DEDD38 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: Swiftlint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		924891222539DC3C00D5BDDA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9248912E2539DC3C00D5BDDA /* ViewController.swift in Sources */,
+				92D3D728253DDCC000DEDD38 /* PlaceArchiveViewController.swift in Sources */,
+				9248912E2539DC3C00D5BDDA /* HunterArchiveViewController.swift in Sources */,
+				92D3D703253DDAE900DEDD38 /* Hunter+CoreDataClass.swift in Sources */,
 				9248912A2539DC3C00D5BDDA /* AppDelegate.swift in Sources */,
+				92D3D72D253DDCFC00DEDD38 /* CreatureArchiveViewController.swift in Sources */,
+				92D3D5EE253DB67300DEDD38 /* BasicArchiveView.swift in Sources */,
+				92D3D714253DDBE100DEDD38 /* CreatureArchiveCell.swift in Sources */,
 				9248912C2539DC3C00D5BDDA /* SceneDelegate.swift in Sources */,
+				92D3D71E253DDC2000DEDD38 /* WorkshopArchiveCell.swift in Sources */,
+				92D3D719253DDC0300DEDD38 /* PlaceArchiveCell.swift in Sources */,
+				92D3D705253DDAE900DEDD38 /* Workshop+CoreDataClass.swift in Sources */,
 				924891342539DC3C00D5BDDA /* NotasPronto.xcdatamodeld in Sources */,
+				92D3D602253DBB5000DEDD38 /* BasicArchiveTable.swift in Sources */,
+				92D3D701253DDAE900DEDD38 /* Place+CoreDataClass.swift in Sources */,
+				92D3D723253DDC6000DEDD38 /* WorkshopArchiveViewController.swift in Sources */,
+				92D3D607253DBCF600DEDD38 /* HunterArchiveCell.swift in Sources */,
+				92D3D6FF253DDAE900DEDD38 /* Creature+CoreDataClass.swift in Sources */,
+				92D3D6DB253DD6E500DEDD38 /* DashboardTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +409,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9248912F2539DC3C00D5BDDA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				924891302539DC3C00D5BDDA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		924891372539DC3D00D5BDDA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
