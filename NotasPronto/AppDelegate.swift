@@ -10,7 +10,7 @@ import CoreData
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+	
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 		// Override point for customization after application launch.
 		return true
@@ -58,6 +58,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	    })
 	    return container
 	}()
+	
+	static var PersistentContainer: NSPersistentContainer {
+		return (UIApplication.shared.delegate as! AppDelegate).persistentContainer
+	}
+	
+	static var viewContext: NSManagedObjectContext {
+		
+		let viewContext = PersistentContainer.viewContext
+		
+		viewContext.automaticallyMergesChangesFromParent = true
+		
+		return viewContext
+	}
 
 	// MARK: - Core Data Saving support
 
