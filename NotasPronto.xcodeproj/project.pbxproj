@@ -18,18 +18,10 @@
 		92D3D5EE253DB67300DEDD38 /* BasicArchiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D5ED253DB67300DEDD38 /* BasicArchiveView.swift */; };
 		92D3D5F6253DB97600DEDD38 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 92D3D5F5253DB97600DEDD38 /* .swiftlint.yml */; };
 		92D3D602253DBB5000DEDD38 /* BasicArchiveTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D601253DBB5000DEDD38 /* BasicArchiveTable.swift */; };
-		92D3D607253DBCF600DEDD38 /* HunterArchiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D606253DBCF600DEDD38 /* HunterArchiveCell.swift */; };
-		92D3D6DB253DD6E500DEDD38 /* DashboardTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D6DA253DD6E500DEDD38 /* DashboardTabBarController.swift */; };
-		92D3D6FF253DDAE900DEDD38 /* Creature+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D6F7253DDAE900DEDD38 /* Creature+CoreDataClass.swift */; };
-		92D3D701253DDAE900DEDD38 /* Place+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D6F9253DDAE900DEDD38 /* Place+CoreDataClass.swift */; };
-		92D3D703253DDAE900DEDD38 /* Hunter+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D6FB253DDAE900DEDD38 /* Hunter+CoreDataClass.swift */; };
-		92D3D705253DDAE900DEDD38 /* Workshop+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D6FD253DDAE900DEDD38 /* Workshop+CoreDataClass.swift */; };
-		92D3D714253DDBE100DEDD38 /* CreatureArchiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D713253DDBE100DEDD38 /* CreatureArchiveCell.swift */; };
-		92D3D719253DDC0300DEDD38 /* PlaceArchiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D718253DDC0300DEDD38 /* PlaceArchiveCell.swift */; };
-		92D3D71E253DDC2000DEDD38 /* WorkshopArchiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D71D253DDC2000DEDD38 /* WorkshopArchiveCell.swift */; };
-		92D3D723253DDC6000DEDD38 /* WorkshopArchiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D722253DDC6000DEDD38 /* WorkshopArchiveViewController.swift */; };
-		92D3D728253DDCC000DEDD38 /* PlaceArchiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D727253DDCC000DEDD38 /* PlaceArchiveViewController.swift */; };
-		92D3D72D253DDCFC00DEDD38 /* CreatureArchiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D72C253DDCFC00DEDD38 /* CreatureArchiveViewController.swift */; };
+		92D3D607253DBCF600DEDD38 /* ArchiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D606253DBCF600DEDD38 /* ArchiveCell.swift */; };
+		92D6A8D62542743600EFDDEC /* Hunter+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D6A8D22542743600EFDDEC /* Hunter+CoreDataClass.swift */; };
+		92D6A8D82542743600EFDDEC /* Workshop+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D6A8D42542743600EFDDEC /* Workshop+CoreDataClass.swift */; };
+		92D6A8EC25427F5800EFDDEC /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D6A8EB25427F5800EFDDEC /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,18 +59,11 @@
 		92D3D5ED253DB67300DEDD38 /* BasicArchiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicArchiveView.swift; sourceTree = "<group>"; };
 		92D3D5F5253DB97600DEDD38 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		92D3D601253DBB5000DEDD38 /* BasicArchiveTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicArchiveTable.swift; sourceTree = "<group>"; };
-		92D3D606253DBCF600DEDD38 /* HunterArchiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HunterArchiveCell.swift; sourceTree = "<group>"; };
-		92D3D6DA253DD6E500DEDD38 /* DashboardTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTabBarController.swift; sourceTree = "<group>"; };
-		92D3D6F7253DDAE900DEDD38 /* Creature+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Creature+CoreDataClass.swift"; path = "../../Creature+CoreDataClass.swift"; sourceTree = "<group>"; };
-		92D3D6F9253DDAE900DEDD38 /* Place+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Place+CoreDataClass.swift"; sourceTree = "<group>"; };
-		92D3D6FB253DDAE900DEDD38 /* Hunter+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hunter+CoreDataClass.swift"; sourceTree = "<group>"; };
-		92D3D6FD253DDAE900DEDD38 /* Workshop+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Workshop+CoreDataClass.swift"; sourceTree = "<group>"; };
-		92D3D713253DDBE100DEDD38 /* CreatureArchiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureArchiveCell.swift; sourceTree = "<group>"; };
-		92D3D718253DDC0300DEDD38 /* PlaceArchiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceArchiveCell.swift; sourceTree = "<group>"; };
-		92D3D71D253DDC2000DEDD38 /* WorkshopArchiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopArchiveCell.swift; sourceTree = "<group>"; };
-		92D3D722253DDC6000DEDD38 /* WorkshopArchiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopArchiveViewController.swift; sourceTree = "<group>"; };
-		92D3D727253DDCC000DEDD38 /* PlaceArchiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceArchiveViewController.swift; sourceTree = "<group>"; };
-		92D3D72C253DDCFC00DEDD38 /* CreatureArchiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureArchiveViewController.swift; sourceTree = "<group>"; };
+		92D3D606253DBCF600DEDD38 /* ArchiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveCell.swift; sourceTree = "<group>"; };
+		92D6A8D22542743600EFDDEC /* Hunter+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hunter+CoreDataClass.swift"; sourceTree = "<group>"; };
+		92D6A8D42542743600EFDDEC /* Workshop+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Workshop+CoreDataClass.swift"; sourceTree = "<group>"; };
+		92D6A8E625427F3200EFDDEC /* NotasPronto.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotasPronto.entitlements; sourceTree = "<group>"; };
+		92D6A8EB25427F5800EFDDEC /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92D6A8EC25427F5800EFDDEC /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +100,7 @@
 				924891422539DC3D00D5BDDA /* NotasProntoTests */,
 				9248914D2539DC3D00D5BDDA /* NotasProntoUITests */,
 				924891272539DC3C00D5BDDA /* Products */,
+				92D6A8EA25427F5800EFDDEC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +117,7 @@
 		924891282539DC3C00D5BDDA /* NotasPronto */ = {
 			isa = PBXGroup;
 			children = (
+				92D6A8E625427F3200EFDDEC /* NotasPronto.entitlements */,
 				92D3D615253DCAF300DEDD38 /* Data */,
 				92D3D5F3253DB93700DEDD38 /* Controller */,
 				92D3D5F2253DB92A00DEDD38 /* View */,
@@ -174,10 +162,6 @@
 			isa = PBXGroup;
 			children = (
 				9248912D2539DC3C00D5BDDA /* HunterArchiveViewController.swift */,
-				92D3D6DA253DD6E500DEDD38 /* DashboardTabBarController.swift */,
-				92D3D722253DDC6000DEDD38 /* WorkshopArchiveViewController.swift */,
-				92D3D727253DDCC000DEDD38 /* PlaceArchiveViewController.swift */,
-				92D3D72C253DDCFC00DEDD38 /* CreatureArchiveViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -186,10 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				92D3D601253DBB5000DEDD38 /* BasicArchiveTable.swift */,
-				92D3D606253DBCF600DEDD38 /* HunterArchiveCell.swift */,
-				92D3D713253DDBE100DEDD38 /* CreatureArchiveCell.swift */,
-				92D3D718253DDC0300DEDD38 /* PlaceArchiveCell.swift */,
-				92D3D71D253DDC2000DEDD38 /* WorkshopArchiveCell.swift */,
+				92D3D606253DBCF600DEDD38 /* ArchiveCell.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -197,12 +178,18 @@
 		92D3D615253DCAF300DEDD38 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				92D3D6F7253DDAE900DEDD38 /* Creature+CoreDataClass.swift */,
-				92D3D6F9253DDAE900DEDD38 /* Place+CoreDataClass.swift */,
-				92D3D6FB253DDAE900DEDD38 /* Hunter+CoreDataClass.swift */,
-				92D3D6FD253DDAE900DEDD38 /* Workshop+CoreDataClass.swift */,
+				92D6A8D22542743600EFDDEC /* Hunter+CoreDataClass.swift */,
+				92D6A8D42542743600EFDDEC /* Workshop+CoreDataClass.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		92D6A8EA25427F5800EFDDEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92D6A8EB25427F5800EFDDEC /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,24 +343,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92D3D728253DDCC000DEDD38 /* PlaceArchiveViewController.swift in Sources */,
 				9248912E2539DC3C00D5BDDA /* HunterArchiveViewController.swift in Sources */,
-				92D3D703253DDAE900DEDD38 /* Hunter+CoreDataClass.swift in Sources */,
 				9248912A2539DC3C00D5BDDA /* AppDelegate.swift in Sources */,
-				92D3D72D253DDCFC00DEDD38 /* CreatureArchiveViewController.swift in Sources */,
 				92D3D5EE253DB67300DEDD38 /* BasicArchiveView.swift in Sources */,
-				92D3D714253DDBE100DEDD38 /* CreatureArchiveCell.swift in Sources */,
+				92D6A8D82542743600EFDDEC /* Workshop+CoreDataClass.swift in Sources */,
 				9248912C2539DC3C00D5BDDA /* SceneDelegate.swift in Sources */,
-				92D3D71E253DDC2000DEDD38 /* WorkshopArchiveCell.swift in Sources */,
-				92D3D719253DDC0300DEDD38 /* PlaceArchiveCell.swift in Sources */,
-				92D3D705253DDAE900DEDD38 /* Workshop+CoreDataClass.swift in Sources */,
 				924891342539DC3C00D5BDDA /* NotasPronto.xcdatamodeld in Sources */,
 				92D3D602253DBB5000DEDD38 /* BasicArchiveTable.swift in Sources */,
-				92D3D701253DDAE900DEDD38 /* Place+CoreDataClass.swift in Sources */,
-				92D3D723253DDC6000DEDD38 /* WorkshopArchiveViewController.swift in Sources */,
-				92D3D607253DBCF600DEDD38 /* HunterArchiveCell.swift in Sources */,
-				92D3D6FF253DDAE900DEDD38 /* Creature+CoreDataClass.swift in Sources */,
-				92D3D6DB253DD6E500DEDD38 /* DashboardTabBarController.swift in Sources */,
+				92D3D607253DBCF600DEDD38 /* ArchiveCell.swift in Sources */,
+				92D6A8D62542743600EFDDEC /* Hunter+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,6 +519,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NotasPronto/NotasPronto.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q2AATBYW8Z;
 				INFOPLIST_FILE = NotasPronto/Info.plist;
@@ -560,6 +539,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NotasPronto/NotasPronto.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q2AATBYW8Z;
 				INFOPLIST_FILE = NotasPronto/Info.plist;

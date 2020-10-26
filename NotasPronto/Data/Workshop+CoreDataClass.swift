@@ -2,7 +2,7 @@
 //  Workshop+CoreDataClass.swift
 //  NotasPronto
 //
-//  Created by Pedro Henrique Costa on 19/10/20.
+//  Created by Pedro Henrique Costa on 22/10/20.
 //
 //
 

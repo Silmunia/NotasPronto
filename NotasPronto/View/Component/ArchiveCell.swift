@@ -1,5 +1,5 @@
 //
-//  HunterArchiveCell.swift
+//  ArchiveCell.swift
 //  NotasPronto
 //
 //  Created by Pedro Henrique Costa on 19/10/20.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HunterArchiveCell: UITableViewCell {
+class ArchiveCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -17,7 +17,7 @@ class HunterArchiveCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-		self.backgroundColor = .blue
+		self.backgroundColor = .white
         // Configure the view for the selected state
     }
 

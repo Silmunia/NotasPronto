@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19G2021" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
-    <entity name="Creature" representedClassName="Creature" syncable="YES" codeGenerationType="category">
-        <attribute name="name" optional="YES" attributeType="String"/>
-        <relationship name="places" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Place" inverseName="creatures" inverseEntity="Place"/>
-    </entity>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
     <entity name="Hunter" representedClassName="Hunter" syncable="YES" codeGenerationType="category">
         <attribute name="name" optional="YES" attributeType="String"/>
-        <relationship name="workshop" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Workshop" inverseName="hunters" inverseEntity="Workshop"/>
-    </entity>
-    <entity name="Place" representedClassName="Place" syncable="YES" codeGenerationType="category">
-        <attribute name="name" optional="YES" attributeType="String"/>
-        <relationship name="creatures" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Creature" inverseName="places" inverseEntity="Creature"/>
-        <relationship name="workshop" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Workshop" inverseName="place" inverseEntity="Workshop"/>
+        <relationship name="workshop" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Workshop" inverseName="hunters" inverseEntity="Workshop"/>
     </entity>
     <entity name="Workshop" representedClassName="Workshop" syncable="YES" codeGenerationType="category">
         <attribute name="name" optional="YES" attributeType="String"/>
         <relationship name="hunters" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Hunter" inverseName="workshop" inverseEntity="Hunter"/>
-        <relationship name="place" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Place" inverseName="workshop" inverseEntity="Place"/>
     </entity>
     <elements>
         <element name="Hunter" positionX="-18" positionY="27" width="128" height="73"/>
-        <element name="Creature" positionX="36" positionY="90" width="128" height="73"/>
-        <element name="Place" positionX="9" positionY="63" width="128" height="88"/>
-        <element name="Workshop" positionX="18" positionY="90" width="128" height="88"/>
+        <element name="Workshop" positionX="18" positionY="90" width="128" height="73"/>
     </elements>
 </model>
